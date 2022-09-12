@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', 'sans-serif';
+    
+    background-image: url(img/pokedex3.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d-none{
+    display: none;
+}
+
+.container-fluid{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-right: 105px;
+    background: white;
+    border-radius: 10px;
+    height: 55px;
+}
+
+.allPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showMoreButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    height: 50px;
+    width: 250px;
+    font-size: larger;
+}
+
+.showAllPokemons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: #fb6c6c98;
+    border-radius: 10px;
+}
+
+.showAllPokemons:hover{
+    cursor: pointer;
+}
+
+.showAllPokemons img{
+    height: 300px;
+    width: 300px;
+}
+
+.pokeNames{
+    border: 1px solid black;
+    width: 274px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: #0000006e;
+}
+
+.type img{
+    height: 32px;
+    width: 32px;
+}
+
+
+
+.showPokemon{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.pokedex{
+    height: 430px;
+    width: 380px;
+    background-color: #FB6C6C;
+    color: white;
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 15px;
+}
+
+.pokeImage{
+    height: 300px;
+    width: 300px;
+}
+
+.infoContainer{
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 320px;
+    width: 380px;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.baseStats{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.statNames{
+    display: flex;
+    flex-direction: column;
+}
+
+.statNumbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px !important;
+    width: 130px;
+}
+
+.progress{
+    width: 130px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.evolution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 380px;
+    height: 50px;
+}
+
+
+.bug{
+    background-color: #A6B91A;
+}
+
+.grass{
+    background-color: #7AC74C;
+}
+
+.fire{
+    background-color: #EE8130;
+}
+
+.normal{
+    background-color: #A8A77A;
+}
+
+.poison{
+    background-color: #A33EA1;
+}
+
+.electric{
+    background-color: #F7D02C;
+} 
+
+.ground{
+    background-color: #E2BF65;
+}
+
+.fairy{
+    background-color: #D685AD;
+}
+
+.water{
+    background-color: #6390F0;
+}
+
+.psychic{
+    background-color: #F95587;
+}
+
+.fighting{
+    background-color: #C22E28;
+}
+
+.rock{
+    background-color: #B6A136;
+}
+
+.ghost{
+    background-color: #735797;
+}
+
+.ice{
+    background-color: #96D9D6;
+}
+
+.dragon{
+    background-color: #6F35FC;
+}
